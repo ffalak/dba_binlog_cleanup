@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 # Bash script for purging binlogs
 
 while getopts t:n: flag
