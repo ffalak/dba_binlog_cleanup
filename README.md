@@ -8,7 +8,7 @@ The script is easy to use, it has 2 flags:
 	eg. `./purgebinlogs -n mysql-bin.1234`
 
 `-t` for the number of last hours you want to save;
-	`eg. ./purgebinlogs -t 8`
+	eg. `./purgebinlogs -t 8`
 	or `./purgebinlogs -t 24`
 	if you want to keep binlogs for the past 8 or 24 hours.
 
