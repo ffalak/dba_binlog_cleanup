@@ -4,11 +4,11 @@ This is my first script that I created for the purpose of clearing binlogs in Ma
 
 The script is easy to use, it has 2 flags:
 
-`-n` for the name of the binlog you want to delete to;
+`-n` for the name of the binlog you want to delete to; 
 	eg. `./purgebinlogs -n mysql-bin.1234`
 
-`-t` for the number of last hours you want to save;
-	eg. `./purgebinlogs -t 8`
+`-t` for the number of last hours you want to save; 
+	eg. `./purgebinlogs -t 8` 
 	or `./purgebinlogs -t 24`
 	if you want to keep binlogs for the past 8 or 24 hours.
 
