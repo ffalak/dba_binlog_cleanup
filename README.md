@@ -3,6 +3,7 @@
 This is my first script that I created for the purpose of clearing binlogs in MariaDB.
 
 The script is easy to use, it has 2 flags:
+
 -n for the name of the binlog you want to delete to;
 	eg. ./purgebinlogs -n mysql-bin.1234
 
