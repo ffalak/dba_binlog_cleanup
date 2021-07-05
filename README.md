@@ -2,7 +2,7 @@
 -------------------------------
 This is my first script that I created for the purpose of clearing binlogs in MariaDB.
 
-The script is easy to use, it has 2 flags:
+The script is easy to use, it has 3 flags:
 
 `-n` for the name of the binlog you want to delete to; 
 	eg. `./purgebinlogs -n mysql-bin.1234`
@@ -11,5 +11,11 @@ The script is easy to use, it has 2 flags:
 	eg. `./purgebinlogs -t 8` 
 	or `./purgebinlogs -t 24`
 	if you want to keep binlogs for the past 8 or 24 hours.
+
+`-l` for the number of binlogs you want to list on screen;
+        eg. `./purgebinlogs -l 10`
+        or `./purgebinlogs -l 75`
+        if you want to show last 10 or 75 binlogs.
+
 
 If you have any comments or any advice for me feel free to contact me at my github *(ffalak)* or my email *falak.franjo@nsoft.com*.
