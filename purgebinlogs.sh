@@ -15,8 +15,7 @@ if [[ -n $hours ]]; then
         mysql --execute="PURGE BINARY LOGS BEFORE '${last_n_hours}';"
     elif [[ -n $binlog_name ]]; then
         mysql --execute="PURGE BINARY LOGS TO '${binlog_name}';"
-    elif [[ -n $list_binlogs ]]; then
-        mysql --execute="SHOW BINARY LOGS;"
+    
     else
         echo "ERROR: No argument"
      exit 1
